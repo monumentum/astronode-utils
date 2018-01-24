@@ -8,7 +8,10 @@
     "testEnvironment": "node",
     "coverageDirectory": "coverage",
     "coveragePathIgnorePatterns": [
-        "<rootDir>/node_modules/"
+        "<rootDir>/node_modules/",
+        "<rootDir>/lib/index.js",
+        "<rootDir>/lib/error/index.js",
+        "<rootDir>/lib/util/index.js"
     ],
     "collectCoverageFrom": [
       "lib/**/*.js"
