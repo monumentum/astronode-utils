@@ -1,0 +1,32 @@
+{
+  "name": "astronode-utils",
+  "version": "0.1.0",
+  "description": "A package with all utils used into astrostack",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --config config.jest.json --coverage",
+    "test:dev": "jest --config config.jest.json --watch",
+    "lint": "eslint --config .eslintrc src",
+    "lint:fix": "eslint --config .eslintrc src --fix",
+    "coveralls": "cat coverage/lcov.info | coveralls"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monumentum/astronode-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "es6"
+  ],
+  "author": "Guilherme Diego <guilherme@monumentum.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monumentum/astronode-utils/issues"
+  },
+  "homepage": "https://github.com/monumentum/astronode-utils#readme"
+}
